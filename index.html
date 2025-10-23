@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Erbol · Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<!-- BODY -->
+<body id="top">
+  <header class="hero">
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact" class="contact-btn">Contact</a></li>
+        <li><button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌙</button></li>
+
+
+        <!-- гамбургер -->
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+      <ul class="mobile-menu" id="mobileMenu" role="menu">
+        <li role="none"><a role="menuitem" href="#about">About</a></li>
+        <li role="none"><a role="menuitem" href="#skills">Skills</a></li>
+        <li role="none"><a role="menuitem" href="#projects">Projects</a></li>
+        <li role="none"><a role="menuitem" class="contact-btn" href="#contact">Contact</a></li>
+        <li role="none"><button class="mobile-theme-toggle" id="mobileThemeToggle" aria-label="Toggle theme (mobile)">Toggle theme</button></li>
+      </ul>
+
+
+    </nav>    
+
+    <div class="hero-content">
+      <div class="text">
+        <p>Hi, I am</p>
+        <h1>Erbol</h1>
+        <p class="subtitle">Front‑end Developer · UI Enthusiast</p>
+
+        <div class="socials">
+          <!-- target="_blank": открывать в новой вкладке.
+rel="noopener": защита при открытии в новой вкладке (безопасность/производительность). -->
+          <a class="icon" href="https://github.com/Erbol05-bit" target="_blank" rel="noopener" aria-label="GitHub">
+            <img src="images/гитхаб_лого.png" alt="GitHub" width="28" height="28" loading="lazy" />
+          </a>
+          <a class="icon" href="erbolasykbaev01@gmail.com" aria-label="Email">
+            <img src="images/почта.пнг.png" alt="Email" width="28" height="28" loading="lazy" />
+          </a>
+          <a class="icon" href="https://www.linkedin.com/in/yourname" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <img src="images/линкедин.png" alt="LinkedIn" width="28" height="28" loading="lazy" />
+          </a>
+        </div>
+      </div>
+
+      <div class="photo">
+        <img src="images/WhatsApp Image 2025-10-18 at 23.13.41.jpeg" alt="Portrait of Your Name">
+      </div>
+    </div>
+  </header>
+
+  <!-- СЕКЦИЯ About -->
+  <section id="about" class="about">
+    <div class="section-title-container">
+      <h2 class="section-title">About Me</h2>
+    </div>
+  
+    <p>
+      I am a front-end developer passionate about clean UI and responsive design. I love learning and exploring new technologies to improve my work.
+    </p>
+  </section>
+
+  <!-- СЕКЦИЯ СКИЛЛЫ -->
+  <section id="skills" class="skills">
+    <div class="section-title-container">
+      <h2 class="section-title">Skills</h2>
+    </div>
+
+    <!-- используем сейчас -->
+    <h3 class="subheading">Using Now:</h3>
+
+    <div class="skills-grid">
+
+      <article class="skill">
+        <img src="images/icons8-логотип-java-coffee-cup-1080.png" alt="Java logo">
+        <h3>Java</h3>
+      </article>
+
+      <article class="skill">
+        <img src="images/256px-HTML5_logo_and_wordmark.svg.png" alt="HTML5 logo">
+        <h3>HTML5</h3>
+      </article>
+
+      <article class="skill">
+        <img src="images/1024px-JavaScript-logo.png" alt="JavaScript Logo">
+        <h3>JavaScript</h3>
+      </article>
+
+      <article class="skill">
+        <img src="images/pngwing.com.png" alt="React logo">
+        <h3>React</h3>
+      </article>
+      
+    </div>
+
+    <!-- изучаем -->
+    <h3 class="subheading">Learning:</h3>
+
+    <div class="skills-grid">
+
+      <article class="skill">
+        <img src="images/typescript.com.png" alt="TypeScript logo">
+        <h3>TypeScript</h3>
+      </article>
+
+      <article class="skill">
+        <img src="images/c++.png.png" alt="C++ logo">
+        <h3>C++</h3>
+      </article>
+
+      <article class="skill">
+        <img src="images/United-kingdom_flag_icon_round.svg" alt="English">
+        <h3>English</h3>
+      </article>
+      
+    </div>
+  </section>
+
+<!-- СЕКЦИЯ ПРОЕКТЫ -->
+  <section id="projects" class="projects">
+    <div class="section-title-container">
+      <h2 class="section-title">Projects</h2>
+    </div>
+  
+    <div class="project-grid">
+
+      <article class="project-card">
+
+        <h3>Landing Page</h3>
+        <p>A responsive business landing page layout.</p>
+        <p><strong>Stack:</strong> HTML, CSS</p>
+         <a href="https://yourname.github.io/landing" target="_blank" rel="noopener">Live</a>      
+         <a href="https://github.com/Erbol05-bit" target="_blank" rel="noopener">GitHub</a>
+      </article>
+  
+      <article class="project-card">
+        <h3>Personal Blog</h3>
+        <p>A clean and minimal blog layout using semantic HTML.</p>
+        <p><strong>Stack:</strong> HTML, CSS</p>
+        <a href="https://yourname.github.io/blog" target="_blank" rel="noopener">Live</a>
+        <a href="https://github.com/Erbol05-bit" target="_blank" rel="noopener">GitHub</a>
+      </article>
+  
+      <article class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>This portfolio built for the course project.</p>
+        <p><strong>Stack:</strong> HTML, CSS, JS</p>
+        <a href="https://yourname.github.io/portfolio" target="_blank" rel="noopener">Live</a>
+        <a href="https://github.com/Erbol05-bit" target="_blank" rel="noopener">GitHub</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- СЕКЦИЯ КОНТАКТ -->
+  <section id="contact" class="contact">
+    <div class="section-title-container">
+      <h2 class="section-title">Contact</h2>
+    </div>
+  
+    
+
+    <form action="#" method="post" class="contact-form" aria-label="Contact form">
+
+      <input type="text" name="name" placeholder="Your Name" required />
+
+      <input type="email" name="email" placeholder="Your Email" required />
+
+      <input type="tel" name="phone" placeholder="Your Phone Number" required />
+
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+
+      <input type="submit" value="Submit" />
+
+    </form>
+  </section>
+  
+  
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+
+  <button id="backToTop" aria-label="Back to top">▲ Top</button>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
